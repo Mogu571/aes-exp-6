@@ -389,7 +389,7 @@ function buildTimeline() {
                 document.getElementById("js-download-btn").addEventListener("click", () => {
                     const dataText = GLOBAL_DATA.experimentLog.join("\n");
                     const timestamp = new Date().toLocaleString().replace(/[:/ ]/g, "-");
-                    const fileName = `${GLOBAL_DATA.subjectName}_实验数据_${timestamp}.txt`;
+                    const fileName = `${GLOBAL_DATA.subjectName}_实验6数据_${timestamp}.txt`;
                     
                     if (downloadData(dataText, fileName)) {
                         statusDiv.textContent = "✓ 数据下载成功！";
