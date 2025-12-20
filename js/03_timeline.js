@@ -145,7 +145,7 @@ function buildTimeline() {
         type: jsPsychHtmlKeyboardResponse,
         stimulus: `
             <div class="welcome-container">
-                <h2>欢迎参与实验！</h2>
+                <h2>欢迎参与实验6！</h2>
                 <div style="margin-top: 50px;">
                     <p style="font-size: 18px; margin-bottom: 15px;">请输入您的姓名（拼音）：</p>
                     <input type="text" id="subject-name" placeholder="例如：zhangsan" style="padding: 8px 12px; font-size: 16px; border: 2px solid #ddd; border-radius: 5px; width: 200px;">
@@ -366,7 +366,7 @@ function buildTimeline() {
         type: jsPsychHtmlKeyboardResponse,
         stimulus: `
             <div style="text-align: center; padding: 50px; background-color: #ffffff; border-radius: 15px; margin: 100px auto; max-width: 600px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); border: 1px solid #e9ecef;">
-                <h2 style="font-size: 28px; color: #28a745; margin-bottom: 30px;">✓ 实验已完成！</h2>
+                <h2 style="font-size: 28px; color: #28a745; margin-bottom: 30px;">✓ 实验6已完成！</h2>
                 <p style="font-size: 18px; margin-bottom: 40px; color: #495057;">感谢您的参与！</p>
                 <p style="font-size: 16px; margin-bottom: 30px; color: #6c757d;">请点击下方按钮下载您的实验数据</p>
                 <button id="js-download-btn" style="background: #007cba; color: white; padding: 15px 30px; border: none; border-radius: 8px; font-size: 16px; cursor: pointer; margin: 10px;">
